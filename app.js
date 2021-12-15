@@ -19,7 +19,7 @@ function calculateProfitLoss(initial,quantity,current) {
         var loss = (initial - current) * quantity;
         var lossPercentage = (loss / initial) *100;
 
-        showOutput("Hey the loss is "+String(loss)+ " and the percentage is "+String(lossPercentage)+"%");
+        showOutput("Hey the loss is -"+String(loss)+ " and the percentage is "+String(lossPercentage)+"%");
 
     } else if (current > initial) {
         var profit = (current - initial) * quantity;
